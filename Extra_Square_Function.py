@@ -1,0 +1,1 @@
+from CS50_Flask import squ
