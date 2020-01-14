@@ -223,7 +223,7 @@ except ValueError:
 
                             #Reading Files
 
-employee_file = open("employees", "r") #r=read w=write a=append
+employee_file = open("Extra_employees", "r") #r=read w=write a=append
 #Input directory if two sheets are not in the same folder
 #If not exist, it will create a new file with this name
 
@@ -290,7 +290,7 @@ question_prompts = [
     "What color are strawberries?\n(a) Red/Green\n(b) Purple\n(c) Orange\n\n"
 ]
 
-from Question import Question
+from Extra_Question import Question
 questions = [
     Question(question_prompts[0], "a"),
     Question(question_prompts[1], "c"),
@@ -310,8 +310,8 @@ run_test(questions)
                                 #Inheritence
 #Inheriting a class' attributes to another one without writing them from scratch
 
-from Chef import Chef
-from ChineseChef import ChineseChef
+from Extra_Chef import Chef
+from Extra_ChineseChef import ChineseChef
 myChef = Chef()
 myChef.make_special_dish() #Chef's special dish is BBQ
 #Chef.make_salad() won't work. Needs to be a variable first
