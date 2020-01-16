@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lists</title>
+    <meta name="description" content="Here I put my lists.">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Home page</a>
+        </nav>
+    </header>
+
+    <ul> <!--Unordered list. Will put circle markers in front of each list item.-->
+        <li>Oranges</li>    <!--list items-->
+        <li>Bananas</li>
+        <li><a href="#">Apples (link doesn't work)</a></li>
+    </ul>
+
+    <ol type="I">        <!--Ordered list will put ordered markers. Type attribute defines which markers to use.
+                             1=1-2-3, A=A-B-C, I=I-II-III, lowercase also works.-->
+        <li>Oranges</li>
+        <li>Bananas
+            <ol type="a">   <!--List inside of list.-->
+                <li>
+                    Green Bananas
+                </li>
+            </ol>
+        </li>       <!--Inner list should be inside the parent <li> tag-->
+        <li><a href="#">Apples (link doesn't work)</a></li>
+    </ol>
+
+    <dl>    <!--Description lists. List out items then describe those items.-->
+        <dt>Apples</dt>  <!--Description term. Works just like a list item.-->
+        <dd>- They are red</dd>       <!--Giving Description term a Description.-->
+        <dt>Oranges</dt>
+        <dd>- They are shockingly orange</dd>
+    </dl>
+
+</body>
+
+</html>
