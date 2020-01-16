@@ -2,9 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Video!</title>
+    <title>Chaplin's Video!</title>
 </head>
 <body>
 
+    <video src="../Chaplin.mp4" poster="../Chaplin_picture.jpg" autoplay loop controls width="300"></video>
+        <!--video tags require an end tag without controls attribute, the video is unwatchable.
+            poster attribute creates a thumbnail for the video.
+            autoplay attribute enables autoplay when loaded, loop attribute loops the video.-->
+    <hr/>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WoFilzN7cXE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!--Youtube uses iframe tag to insert its videos into other webpages. Can find the link by clicking share button below the video itself.-->
 </body>
 </html>
