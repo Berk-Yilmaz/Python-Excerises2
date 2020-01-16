@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    </head>
+
+    <body>
+        <a href="index.html">Homepage</a>
+        <br/><br/>
+        <table>
+            <thead>     <!--Table head. Seperates the head part from the rest.-->
+                <caption>List of Numbers</caption>      <!--Creating the caption for the table-->
+
+                <tr>
+                    <th>num1</th>       <!--Another table row, but this one is a header.-->
+                    <th>num2</th>       <!--These are the titles for each column-->
+                    <th>num3</th>
+                </tr>
+            </thead>
+
+            <tbody>     <!--Table body. Seperates the body part from the rest.-->
+                <tr>        <!--Table row. One horizontal line.-->
+                    <td>one</td>        <!--Table data defines individual data for the each column of the table-->
+                    <td>two</td>
+                    <td>three</td>      <!--These create three columns for our table.-->
+                </tr>
+
+                <tr>        <!--This creates another row-->
+                    <td colspan="2">four</td>       <!--colspan attribute defines how many columns the item will take.-->
+                    <td>five</td>
+                    <td>six</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <form>      <!--Serves as a wrapper for user input tags-->
+            <input type="text"/>       <!--Creates a box that enables to input data. No need for end tag-->
+            <input type="password"/>   <!--Type attribute defines what kind of data to input-->
+            <input type="text" value="Enter your username."/> <!--value attribute creates a default value for the input box.-->
+            <input type="date" />      <!--Generally for birthdays-->
+            <input type="range" />     <!--Creates a line with a dot that can be moved.-->
+            <input type="file" />      <!--For uploading file.-->
+            <input type="submit" />    <!--For a submit button-->
+
+            <input type="checkbox" />  <!--Creates a box that can be checked. Multiple checkboxes can be checked at the same time.-->
+            <input type="checkbox" />
+            <input name="btn" type="radio" />   <!--Creates a radio button. Can be named with name attribute.-->
+            <input name="btn" type="radio" />   <!--As long as they have the same name, only one can be checked at the same time-->
+
+            <textarea rows="10" cols="30">    <!--Resizable block of input-->
+                Enter a paragraph.
+            </textarea>         <!--Needs a end tag.-->
+        </form>
+    </body>
+
+</html>
