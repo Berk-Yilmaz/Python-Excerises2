@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7526a3a1-1dbb-46bf-98a3-a771e54ca7f1" name="Default Changelist" comment="Update">
-      <change afterPath="$PROJECT_DIR$/Sandbox/Guess_the_Number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sandbox/Hangman.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sandbox/Rock_Paper_Scissors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Basics/Print_Tips.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sandbox/Password_Generator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/Hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/Hangman.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,28 +43,7 @@
       <recent name="C:\Users\berky\Documents\GitHub\Python-Excerises\Sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Hangman">
-    <configuration name="CS50_Flask (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Eddie" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_app" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_app/CS50_Flask.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Password_Generator">
     <configuration name="Exercises" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Eddie" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,6 +107,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Password_Generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Eddie" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sandbox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sandbox/Password_Generator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Rock_Paper_Scissors" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Eddie" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Password_Generator" />
         <item itemvalue="Python.Hangman" />
         <item itemvalue="Python.Rock_Paper_Scissors" />
         <item itemvalue="Python.Guess_the_Number" />
         <item itemvalue="Python.Exercises" />
-        <item itemvalue="Python.CS50_Flask (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -252,22 +252,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="924" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579091384744" />
-    <state width="1515" height="197" key="GridCell.Tab.0.bottom" timestamp="1579451220045">
+    <state width="1515" height="197" key="GridCell.Tab.0.bottom" timestamp="1579615230229">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579451220045" />
-    <state width="1515" height="197" key="GridCell.Tab.0.center" timestamp="1579451220045">
+    <state width="1515" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579615230229" />
+    <state width="1515" height="197" key="GridCell.Tab.0.center" timestamp="1579615230229">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579451220045" />
-    <state width="1515" height="197" key="GridCell.Tab.0.left" timestamp="1579451220045">
+    <state width="1515" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579615230229" />
+    <state width="1515" height="197" key="GridCell.Tab.0.left" timestamp="1579615230229">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579451220045" />
-    <state width="1515" height="197" key="GridCell.Tab.0.right" timestamp="1579451220045">
+    <state width="1515" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579615230229" />
+    <state width="1515" height="197" key="GridCell.Tab.0.right" timestamp="1579615230229">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579451220045" />
+    <state width="1515" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579615230229" />
     <state width="745" height="260" key="GridCell.Tab.1.bottom" timestamp="1579022219199">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -288,10 +288,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="232" y="57" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579118991810" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1579442992694">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1579610633127">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579442992694" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579610633127" />
     <state x="848" y="13" width="609" height="804" key="find.popup" timestamp="1578863565633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
